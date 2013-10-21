@@ -1,11 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.9.11)  14 OCT 2013 21:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.22)  21 OCT 2013 09:54
 entering extended mode
  %&-line parsing enabled.
 **PLAN.tex
 (./PLAN.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size11.clo
@@ -45,23 +51,134 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./PLAN.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--47
+
+ []
+
+
+Overfull \hbox (49.2146pt too wide) in paragraph at lines 36--47
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--76
+
+ []
+
+
+Overfull \hbox (22.84328pt too wide) in paragraph at lines 67--76
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
+
+ []
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 95--106
+
+ []
+
+
+Overfull \hbox (20.16664pt too wide) in paragraph at lines 95--106
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--120
+
+ []
+
+
+Overfull \hbox (98.44397pt too wide) in paragraph at lines 106--120
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--132
+
+ []
+
+
+Overfull \hbox (35.80081pt too wide) in paragraph at lines 120--132
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--153
+
+ []
+
+
+Overfull \hbox (84.49796pt too wide) in paragraph at lines 142--153
+[] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 153--163
+
+ []
+
+
+Overfull \hbox (44.34799pt too wide) in paragraph at lines 153--163
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--173
+
+ []
+
+
+Overfull \hbox (5.38411pt too wide) in paragraph at lines 163--173
+[] 
+ []
+
+[5] (./PLAN.aux) ) 
 Here is how much of TeX's memory you used:
- 229 strings out of 495061
- 2414 string characters out of 1182621
- 48093 words of memory out of 3000000
- 3482 multiletter control sequences out of 15000+50000
- 7887 words of font info for 28 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 21i,6n,19p,139b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr17.pfb>
-Output written on PLAN.pdf (1 page, 43977 bytes).
+ 234 strings out of 493848
+ 2492 string characters out of 1152823
+ 52808 words of memory out of 3000000
+ 3585 multiletter control sequences out of 15000+50000
+ 8811 words of font info for 31 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 21i,8n,19p,156b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on PLAN.pdf (5 pages, 107488 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

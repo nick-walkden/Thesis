@@ -20,9 +20,157 @@
 \subsection{Introduction}
 \subsection{Experimental Review}
 \subsection{Theoretical Review}
+\newpage
 \subsection{Ball Pen Probe}
+This chapter will be a description of the design, modelling and experimental results from the ball pen probe. It will include the following work:
+\begin{enumerate}
+\item A description of the ball pen probe implementation on MAST \\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Ready for writeup \\
+\hline
+  \textbf{Time required:} & N/A \\
+\hline
+\textbf{Tasks:} & Write up section
+\end{tabular}
+\item Present modelling work towards understanding the BPP collection mechanism \\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Finished analytics, need to solve numerically \\
+\hline
+  \textbf{Time required:} & 2 Weeks \\
+\hline
+\textbf{Tasks:} & Write integrator for $I^{+}/I^{-}$ \\
+ & Complete analysis of probe impedance \\
+ & Attempt to compare probe impedance to experiment
+\end{tabular}
+\item Potential Profile measurements\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Ready for writeup \\
+\hline
+  \textbf{Time required:} & N/A \\
+\hline
+\textbf{Tasks:} & Write up section
+\end{tabular}
+\item Temperature profile measurements and assesment of BPP technique for measurement\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} & Temperature profiles available \\
+ & Need to conduct assesment of $\alpha$\\
+\hline
+  \textbf{Time required:} & 2 Weeks \\
+\hline
+\textbf{Tasks:} & Refine Thomson comparison \\
+ & Critically asses $\alpha$ 
+\end{tabular}
+\item Radial electric field measurements\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Figures available, awaiting comparison data \\
+\hline
+  \textbf{Time required:} & 2 Weeks \\
+\hline
+\textbf{Tasks:} & Compare BPP E-field to DBS and ECELESTE
+\end{tabular}
+\item Fluctuation measurements in shear layer region\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Not yet started \\
+\hline
+  \textbf{Time required:} & 3 Weeks \\
+\hline
+\textbf{Tasks:} & Write PDF and moment calculator\\
+ & Perform analysis of PDF in shear layer
+\end{tabular}
+
+
+
+\end{enumerate}
 \subsection{Two-Dimensional Blob Modelling}
+\newpage
 \subsection{Three-Dimensional MAST Modelling}
+This chapter will be a description of 3D filament using Angus's work as a starting point. It will include the following work:
+\begin{enumerate}
+\item 3D filament simulations in a slab with the basic model as an introduction and to recreate Angus's work in MAST. \\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Not yet started \\
+\hline
+  \textbf{Time required:} & 2 Weeks \\
+\hline
+\textbf{Tasks:} &
+      Set up slab simulation with MAST parameters
+\\ &  Run over a range of $\Delta$ and $\delta$
+\end{tabular}
+\item 3D filament simulations in a slab with hot-ions \\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Initial work implementing hot ions complete \\
+ & Need to carry out simulations \\
+\hline
+  \textbf{Time required:} & 4 Weeks \\
+\hline
+\textbf{Tasks:} &
+      Go through Angus drift wave work including effects of hot ions
+\\ & Complete symmetry breaking analysis \\
+ &  determine parameters for simulations
+\\ &  Run simulations
+\end{tabular}
+\item 3D filament simulations in a slab with parallel streaming \\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Parallel streaming implemented and under testing \\
+\hline
+  \textbf{Time required:} & 4 Weeks \\
+\hline
+\textbf{Tasks:} &
+      Apply linear analysis to system 
+\\ &  Apply symmetry analysis to system\\
+ & Finish testing and carry out simulations
+\end{tabular}
+\item 3D flux tube simulations with the basic model\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} & Nearly Completed \\
+\hline
+  \textbf{Time required:} & $\sim$ 3 days \\
+\hline
+\textbf{Tasks:} & Re-run  with shadowing\\
+  &     Write up section
+\end{tabular}
+\item 3D flux tube simulatations with the full isothermal model\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} & Not yet started \\
+\hline
+  \textbf{Time required:} & 4 Weeks \\
+\hline
+\textbf{Tasks:} & Finish stability checking of hot-ion parallel streaming model\\
+ & Decide on correct starting conditions\\ 
+ & Carry out simulations
+\end{tabular}
+\item 3D slab simulations with divertor tilt boundary conditions\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Not yet started \\
+\hline
+  \textbf{Time required:} & 4 Weeks \\
+\hline
+\textbf{Tasks:} & Implement Loizu boundary conditions in BOUT++\\
+ & Carry out simulations varying $\delta$
+\end{tabular}
+\item 3D full SOL simulations with the full isothermal model and divertor plate tilt\\ \\
+\begin{tabular}{l l}
+\hline
+\textbf{Completion status:} &  Started on grid generator \\
+\hline
+  \textbf{Time required:} & 4 Weeks \\
+\hline
+\textbf{Tasks:} & Continue to develop FWA grid generator\\
+ & Carry out simulations in a realistic scenario
+\end{tabular}
+\end{enumerate}
 \subsection{Three-Dimensional MAST-Upgrade Modelling}
 \subsection{Zero-Dimensional Predictive Modelling}
 \subsection{Conclusions}
