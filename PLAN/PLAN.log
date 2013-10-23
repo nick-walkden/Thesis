@@ -1,17 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.2.22)  21 OCT 2013 09:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.9.11)  23 OCT 2013 21:58
 entering extended mode
  %&-line parsing enabled.
 **PLAN.tex
 (./PLAN.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size11.clo
@@ -95,79 +89,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--86
  []
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 95--106
+Underfull \hbox (badness 10000) in paragraph at lines 94--105
 
  []
 
 
-Overfull \hbox (20.16664pt too wide) in paragraph at lines 95--106
+Underfull \hbox (badness 10000) in paragraph at lines 105--115
+
+ []
+
+
+Overfull \hbox (1.55157pt too wide) in paragraph at lines 105--115
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--120
+Underfull \hbox (badness 10000) in paragraph at lines 115--125
 
  []
 
 
-Overfull \hbox (98.44397pt too wide) in paragraph at lines 106--120
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--132
+Underfull \hbox (badness 10000) in paragraph at lines 125--139
 
  []
 
 
-Overfull \hbox (35.80081pt too wide) in paragraph at lines 120--132
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--142
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--153
-
- []
-
-
-Overfull \hbox (84.49796pt too wide) in paragraph at lines 142--153
+Overfull \hbox (31.32954pt too wide) in paragraph at lines 125--139
 [] 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 153--163
+Underfull \hbox (badness 10000) in paragraph at lines 144--155
 
  []
 
 
-Overfull \hbox (44.34799pt too wide) in paragraph at lines 153--163
+Overfull \hbox (20.16664pt too wide) in paragraph at lines 144--155
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--173
+Underfull \hbox (badness 10000) in paragraph at lines 155--169
 
  []
 
 
-Overfull \hbox (5.38411pt too wide) in paragraph at lines 163--173
+Overfull \hbox (98.44397pt too wide) in paragraph at lines 155--169
 [] 
  []
 
-[5] (./PLAN.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--181
+
+ []
+
+
+Overfull \hbox (35.80081pt too wide) in paragraph at lines 169--181
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--202
+
+ []
+
+
+Overfull \hbox (84.49796pt too wide) in paragraph at lines 191--202
+[] 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 202--212
+
+ []
+
+
+Overfull \hbox (44.34799pt too wide) in paragraph at lines 202--212
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--222
+
+ []
+
+
+Overfull \hbox (5.38411pt too wide) in paragraph at lines 212--222
+[] 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 227--238
+
+ []
+
+
+Overfull \hbox (52.83423pt too wide) in paragraph at lines 227--238
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--250
+
+ []
+
+
+Overfull \hbox (80.05713pt too wide) in paragraph at lines 238--250
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--261
+
+ []
+
+
+Overfull \hbox (5.38411pt too wide) in paragraph at lines 250--261
+[] 
+ []
+
+[7] (./PLAN.aux) ) 
 Here is how much of TeX's memory you used:
- 234 strings out of 493848
- 2492 string characters out of 1152823
- 52808 words of memory out of 3000000
- 3585 multiletter control sequences out of 15000+50000
+ 234 strings out of 495061
+ 2492 string characters out of 1182621
+ 51093 words of memory out of 3000000
+ 3486 multiletter control sequences out of 15000+50000
  8811 words of font info for 31 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 21i,8n,19p,156b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28 hyphenation exceptions out of 8191
+ 21i,8n,19p,237b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
 10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
@@ -176,9 +230,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
 ublic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on PLAN.pdf (5 pages, 107488 bytes).
+Output written on PLAN.pdf (7 pages, 111203 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
