@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage[left=2.54cm,right=2.54cm,top=4.0cm,bottom=2.5cm]{geometry}
+\usepackage[dvips]{color}
+\renewcommand{\baselinestretch}{1.0}
+
+%%% FONT SIZE TABLE
+% Default     : 12pt
+% Huge        : 25pt
+% huge        : 25pt
+% LARGE       : 21pt
+% Large       : 17pt
+% large       : 14pt
+% normalsize  : 12pt
+% small       : 11pt
+% footnotesize: 10pt
+% scriptsize  : 8pt
+% tiny        : 6pt
+
+\begin{document}
+\pagestyle{empty}
+\parindent=0mm
+\parskip=0mm
+
+\begin{center}
+%%%
+%%% TITLE
+%%%
+{\large\bfseries Effect of magnetic geometry on filament dynamics}\\
+~\\
+%%%
+%%% AUTHOR(S)
+%%%
+N. R. Walkden${}^{a,b}$, B. D. Dudson${}^{b}$, G. Fishpool${}^{a}$ and M. Umansky${}^{c}$\\
+~\\
+%%%
+%%% AFFILIATION
+%%%
+{\small\itshape
+{\footnotesize ${}^{a}$EURATOM/CCFE Fusion Association, Culham Science Centre, Abingdon, OX14 3DB, UK\\
+${}^{b}$York Plasma Institute, Department of Physics, University of York, Heslington, York, YO10 5DD, UK\\
+${}^{c}$Lawrence Livermore National Laboratory, Livermore, CA 94550, US}}
+~\\
+%%%
+%%% EMAIL
+%%%
+{\small nrw504@york.ac.uk}%
+%%%
+%%%
+%%%
+\end{center}
+
+This is a short note detailing some work on generalizing the effect of magnetic geometry on filament dynamics. It follows from work by Myra [1], Ryutov[2,3,4] and Cohen [5,6]. In [1] a theory is constructed around two coupled 2D systems of blob equations describing the midplane motion and the divertor motion. Curvature drive is assumed to dominate at the midplane and is replaced by sheath dissipation in the divertor region. The two sets of equations are coupled together by a parallel current. A number of regions of linear instability are identified which are related to blob dynamics by the blob correspondance principle. The blob is observed to disconnect from the sheath at high collisionality. [2,4-6] use a heuristic boundary condition applied to the blob at a 'control surface' located near to the X-point. They go on to show that the divertor blob can move independantly from the midplane blob. In [3] the full filament is considered and its motion is described as a displacement of the entire flux tube. In this note we use techniques similar to this approach to explore the disconnection of a filament from the sheath. 
+~\\
+We start with the equation for ambi-polarity, $\nabla \cdot \textbf{J} = 0'$, which determines the current distribution within the filament 
+\begin{equation}  
+-\nabla\cdot\textbf{J}_{pol} = ec_{s}\rho_{s}\xi \cdot\nabla n + \nabla_{||}J_{||}
+\end{equation}
+where 
+\[ \xi = B\nabla\times\frac{\textbf{b}}{B} \approx 2\textbf{b}\times\kappa\]. 
+The first term on the RHS of (1) is the divergence of the diamagnetic current and is a source of current in the filament. The LHS of (1) is the divergence of the polarization current which arrises to close the circuit created by the diamagnetic current (due to curvature forcing) and parallel currents. As such the goal is to determine the LHS of (1) by evaluating the terms on the RHS. We assume the filament cross-section is approximately a gaussian of width $2\delta_{\perp}$ at the midplane and a height $\delta n >> n_{0}$ where $n_{0}$ is the background density. We can then approximate the curvature source at the midplane by 
+\begin{equation}
+ ec_{s}\rho_{s}\xi \cdot\nabla n \approx \frac{c_{s}\rho_{s}e\xi^{g} \delta n}{\delta_{g}}
+\end{equation}
+where $\xi^{g}$ and $\delta_{g}$ are the contravariant component of polarization vector in the geodesic direction and the geodesic filament width (here we use geodesic to refer to the direction perpendicular to $\textbf{b}$ and $\nabla \psi$). $J_{||}$ term in (1) couples cross-sections of the filament at different points along its length together. This can be elucidated by first averaging the equation over the filament cross-section (perpendicular to the field) denoted by $\left<.\right>_{\perp}$ and then integrating from the midplane a distance $L_{||}$ along the field line.
+\begin{equation}
+-\int_{0}^{L_{||}}\left<\nabla\cdot\textbf{J}_{pol}\right>_{\perp}ds = \int_{0}^{L_{||}}\left< \frac{c_{s}\rho_{s}e\xi^{g}\delta n}{\delta_{g}}\right>_{\perp}ds + \left(\left[\left<J_{||}\right>_{\perp}\right]_{L_{||}} - \left[\left<J_{||}\right>_{\perp}\right]_{0}\right)
+\end{equation}
+This simply shows that the polarization current results from any imbalance between the driving diamagnetic current and the parallel current, which acts to carry charge down the filament to material surfaces. It is clear that if the 1st term on the RHS of (3) is large compared to the second then the dynamics are entirely local. This is equivalent to inertially limited blobs found in the literature and the filament is electrically disconnected between the miplane and $L_{||}$. If the 2nd term is large then the polarization current that emerges with the region $(0,L_{||})$ is coupled along the length and the filament is electrically connected between the midplane and  $L_{||}$. If $L_{||}$ extends to the sheath then this is equivalent to the sheath-limited blobs, but importantly $L_{||}$ does not have to extend to the sheath. 
+~\\ We now turn attention to evaluating the integral term 
+\[\int_{0}^{L_{||}}\left< \frac{c_{s}\rho_{s}e\xi^{g}\delta n}{\delta_{g}}\right>_{\perp}ds\].
+
+
+
+
+
+~\\ ~[1] J. R. Myra, D. A. Russell and D. A. D'Ippolito, \emph{``Collisionality and magnetic geometry effects on tokamak edge turbulent transport. 1. A Two-region model with application to blobs''}, Phys. Plasmas, {\bfseries 13} (2006) 112502
+\\ ~[2] D. D. Ryutov and R. H. Cohen, \emph{``Instability Driven by Seath Boundary Conditions and Limited to Divertor Legs''}, Contrib. Plasma Phys., {\bfseries 44} (2004) 1-3
+\\ ~[3] D. D. Ryutov, \emph {``The dynamics of and isolated plasma filament at the edge of a toroidal device''}, Phys. Plasmas, {\bfseries 13} (2006) 112307
+\\ ~[4] D. D. Ryutov and R. H. Cohen, \emph{`` Geometrical Effects in Plasma Stability and Dynamics of Coherent Structures in the Divertor''}, Contrib. Plasma Phys., {\bfseries 48} (2008) 1-3
+\\ ~[5] R. H. Cohen and D. D. Ryutov, \emph{``Dynamics of an Isolated Blob in the Presence of the X-point''}, Contrib. Plasma Phys., {\bfseries 46} (2006) 7-9
+\\ ~[6] R. H. Cohen et. al., \emph{``Theory and fluid simulations of boundary-plasma fluctuations''}, Nucl. Fusion, {\bfseries 47} (2007) 612-625 
+
+
+~\\{\small  This work was funded partly by the RCUK Energy Programme under grant EP/1501045 and the European Communities under the Contract of Association between EURATOM and CCFE. The views and opinions expressed herein do not necessarily reflect those of the European Commission. Authors acknowledge access to the HECToR super-computer through EPSRC grant EP/L000237/1.}
+
+
+\end{document}

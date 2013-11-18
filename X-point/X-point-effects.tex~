@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\usepackage[left=2.54cm,right=2.54cm,top=4.0cm,bottom=2.5cm]{geometry}
+\usepackage[dvips]{color}
+\renewcommand{\baselinestretch}{1.0}
+
+%%% FONT SIZE TABLE
+% Default     : 12pt
+% Huge        : 25pt
+% huge        : 25pt
+% LARGE       : 21pt
+% Large       : 17pt
+% large       : 14pt
+% normalsize  : 12pt
+% small       : 11pt
+% footnotesize: 10pt
+% scriptsize  : 8pt
+% tiny        : 6pt
+
+\begin{document}
+\pagestyle{empty}
+\parindent=0mm
+\parskip=0mm
+
+\begin{center}
+%%%
+%%% TITLE
+%%%
+{\large\bfseries Filament Dynamics in the Super-X Divertor Geometry of MAST-Upgrade}\\
+~\\
+%%%
+%%% AUTHOR(S)
+%%%
+N. R. Walkden${}^{a,b}$, B. D. Dudson${}^{b}$, G. Fishpool${}^{a}$, J. Leddy${}^{b}$, J. Omotani${}^{a}$ and M. Umansky${}^{c}$\\
+~\\
+%%%
+%%% AFFILIATION
+%%%
+{\small\itshape
+{\footnotesize ${}^{a}$EURATOM/CCFE Fusion Association, Culham Science Centre, Abingdon, OX14 3DB, UK\\
+${}^{b}$York Plasma Institute, Department of Physics, University of York, Heslington, York, YO10 5DD, UK\\
+${}^{c}$Lawrence Livermore National Laboratory, Livermore, CA 94550, US}}
+~\\
+%%%
+%%% EMAIL
+%%%
+{\small nrw504@york.ac.uk}%
+%%%
+%%%
+%%%
+\end{center}
+%%%
+%%% BODY OF ABSTRACT
+%%%
+In this paper we present results from simulations of isothermal filament dynamics in BOUT++[1]. The simulations are carried out in a SOL flux-tube in both the conventional MAST geometry and the Super-X divertor (SXD) geometry of MAST-Upgrade. The magnetic geometry, particularly in the X-point region, plays an important role on the emergent dynamics of the filaments by causing an electrical isolation of the filament from the sheath boundary. By measuring the correlation of a midplane cross-section with a displaced cross-section we show that the X-point causes a strong decorrelation of the filament in both geometries. This occurs when the resistivity of the filament prevents the establishment of a significant parallel current and the dynamic mechanism driving the filament motion acts locally. The result is a large radial flux between the two X-points with suppressed motion below. As electron temperature is increased the resultant decrease in resistivity allows the filament to connect through the X-point. This transition from an isolated to a connected state agrees well with the two-region model [2] though the internal dynamics of the filament can vary. Density gradients, established in the filament as a result of the local interchange drive, can induce a Boltzmann response within the filament causing it to spin [3] and reducing its radial transport. By comparing the transition between these forms of dynamics both analytically and numerically in the two geometries we look to make predictions for particle transport in the SOL of MAST-Upgrade. Finally a prominant feature of the MAST-Upgrade geometry is the presence of a nose baffle to achieve high levels of divertor closure. Filaments limited to the nose baffle are expected to behave as predicted by the sheath limited model [4]. This is investigated numerically to determine how this change in dynamics may affect the far SOL characteristics in MAST-Upgrade.   
+ 
+%%%
+%%% LIST OF REFERENCES
+%%%
+~\\
+~[1] B. D. Dudson, et al., Comp. Phys. Comm. {\bfseries 180} (2009) 1467-1480 \\
+~[2] J. R. Myra, et al., Phys. Plasmas {\bfseries 13} (2006) 112502\\
+~[3] N. R. Walkden, et al., Plasma. Phys. Control. Fusion {\bfseries 55} (2013) 105005 \\
+~[4] S. I. Krasheninnikov, Phys. Lett. A {\bfseries 283} (2001) 368
+
+~\\
+{\small  This work was funded partly by the RCUK Energy Programme under grant EP/1501045 and the European Communities under the Contract of Association between EURATOM and CCFE. The views and opinions expressed herein do not necessarily reflect those of the European Commission. Authors acknowledge access to the HECToR super-computer through EPSRC grant EP/L000237/1.}
+%%%
+%%% END OF ABSTRACT
+%%%
+\end{document}
